@@ -55,8 +55,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         if segue.identifier == "toDetail" {
             
-            //let desVC = segue.destination as! DetailViewController
-            //desVC.photo = sender as! Photo
+            let desVC = segue.destination as! DetailViewController
+            desVC.photo = sender as! Photo
             
         }
         
